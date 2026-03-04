@@ -42,13 +42,6 @@ if generate_button:
 
             matched = skill_gap["matched_skills"]
             missing = skill_gap["missing_skills"]
-            
-            total_skills = len(matched) + len(missing)
-            
-            if total_skills > 0:
-                coverage_score = (len(matched)/total_skills) * 100
-            else:
-                coverage_score = 0
 
             # Match score
             match_score = compute_match_score(resume_text, job_description)
@@ -68,11 +61,6 @@ if generate_button:
         st.subheader("Similarity Score")
         st.markdown(f"### {match_score:.2f}%")
         st.progress(float(match_score) / 100)
-
-        # ---------- COVERAGE SCORE ----------
-        st.subheader("Skill Coverage Score")
-        st.markdown(f"### {coverage_score:.2f}%")
-        st.progress(float(coverage_score) / 100)
 
         # ---------- SKILL ALIGNMENT ----------
         st.subheader("Skill Alignment")
