@@ -3,5 +3,5 @@ pdfplumber
 python-dotenv
 scikit-learn
 sentence-transformers
-google-generativeai
+google-genai
 torch
