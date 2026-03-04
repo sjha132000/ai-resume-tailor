@@ -14,7 +14,7 @@ st.title("🚀 AI Resume Tailoring Tool")
 # ---- Model Selection ----
 model_choice = st.selectbox(
     "Select Model",
-    ["gemini", "llama"]
+    ["gemini"]
 )
 
 # ---- Upload Resume ----
