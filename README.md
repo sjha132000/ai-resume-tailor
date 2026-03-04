@@ -40,29 +40,25 @@ https://resume-tailor-ai-tool.streamlit.app/
     ├── requirements.txt
     └── README.md
 
+-----------------------------------------------------------------------
+
 **File roles**
 
-  -----------------------------------------------------------------------
-  File                             Purpose
-  -------------------------------- --------------------------------------
-  `app.py`                         Streamlit interface
+  `app.py`: Streamlit interface
 
-  `parser.py`                      Extracts text from PDF resumes
+  `parser.py`: Extracts text from PDF resumes
 
-  `jd_analyzer.py`                 Extracts structured information from
-                                   job descriptions
+  `jd_analyzer.py`: Extracts structured information from job descriptions
 
-  `resume_analyzer.py`             Extracts structured information from
-                                   resumes
+  `resume_analyzer.py`: Extracts structured information from resumes
 
-  `matcher.py`                     Computes semantic similarity score
+  `matcher.py`: Computes semantic similarity score
 
-  `skill_gap.py`                   Identifies matched and missing skills
+  `skill_gap.py`: Identifies matched and missing skills
 
-  `tailor.py`                      Generates tailored resume output
+  `tailor.py`: Generates tailored resume output
 
-  `llm.py`                         LLM interface (Gemini / Llama3)
-  -----------------------------------------------------------------------
+  `llm.py`: LLM interface (Gemini)
 
 ------------------------------------------------------------------------
 
@@ -86,9 +82,6 @@ generation.
     tailor.py         → Resume Rewriting
          ↓
     Streamlit UI
-
-This modular design keeps extraction, evaluation, and generation clearly
-separated and easy to extend.
 
 ------------------------------------------------------------------------
 
@@ -147,7 +140,6 @@ Create a `.env` file in the root directory and add your API key:
 ``` bash
 GEMINI_API_KEY=your_api_key_here
 ```
-
 
 ------------------------------------------------------------------------
 
