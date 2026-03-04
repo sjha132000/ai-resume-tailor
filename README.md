@@ -14,6 +14,14 @@ with an AI‑tailored version of the resume.
 
 ------------------------------------------------------------------------
 
+# Live Application
+
+You can access the deployed application here:
+
+https://resume-tailor-ai-tool.streamlit.app/
+
+------------------------------------------------------------------------
+
 # Project Structure
 
     ai-resume-tailor/
@@ -132,19 +140,12 @@ pip install -r requirements.txt
 
 ## 4. Environment setup
 
-### For Gemini
+### Gemini
 
 Create a `.env` file in the root directory and add your API key:
 
 ``` bash
 GEMINI_API_KEY=your_api_key_here
-```
-### For Llama
-
-Make sure Ollama is installed and running:
-
-``` bash
-ollama pull llama3
 ```
 
 
