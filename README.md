@@ -1,4 +1,4 @@
-# 🚀 AI Resume Tailoring Tool
+# AI Resume Tailoring Tool
 
 An AI-powered tool that analyzes a resume against a job description,
 identifies skill gaps, computes semantic similarity, and generates a
@@ -16,7 +16,7 @@ with an AI‑tailored version of the resume.
 
 # Live Application
 
-You can access the deployed application here:
+The deployed application can be accessed here:
 
 https://resume-tailor-ai-tool.streamlit.app/
 
@@ -89,7 +89,7 @@ generation.
 
 **Frontend / Interface** - Streamlit
 
-**AI / LLM** - Gemini API - Llama3 via Ollama
+**AI / LLM** - Gemini API
 
 **NLP & Semantic Matching** - Sentence Transformers - MiniLM embeddings
 
@@ -102,7 +102,7 @@ generation.
 ## 1. Clone the repository
 
 ``` bash
-git clone https://github.com/yourusername/ai-resume-tailor.git
+git clone https://github.com/sjha132000/ai-resume-tailor.git
 cd ai-resume-tailor
 ```
 
@@ -135,7 +135,7 @@ pip install -r requirements.txt
 
 ### Gemini
 
-Create a `.env` file in the root directory and add your API key:
+Create a `.env` file in the root directory and add API key:
 
 ``` bash
 GEMINI_API_KEY=your_api_key_here
